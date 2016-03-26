@@ -1,14 +1,14 @@
 # PhpStorm Code Completion to CodeIgniter
 
-Working perfectly with CodeIgniter 3.0.4
+Working perfectly with CodeIgniter 3.0.6
 
 ### How to use it:
-1. Drop the phpstorm.php file into your CI project root then PhpStorm will index it.
-2. Go to system/core/ folder.
-3. Select Controller.php and Model.php files, right click and set Mark as Plain Text.
+1. Drop the **phpstorm.php** file into your CI project root then PhpStorm will index it.
+2. Go to *system/core/* folder.
+3. Select *Controller.php* and *Model.php* files, right click and set *Mark as Plain Text*.
 
 ### Preview:
-![Image of Yaktocat](https://raw.githubusercontent.com/natanfelles/codeigniter-phpstorm/master/codeigniter-phpstorm.png)
+![Image of Code Completion](https://raw.githubusercontent.com/natanfelles/codeigniter-phpstorm/master/codeigniter-phpstorm.png)
 
 ### Hey!
 

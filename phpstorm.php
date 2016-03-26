@@ -11,20 +11,18 @@ die('This file is used for development purposes only.');
  * @package       CodeIgniter
  * @subpackage    PhpStorm
  * @category      Code Completion
- * @version       1.0.0
+ * @version       3.0.6
  * @author        Natan Felles
  * @link          http://github.com/natanfelles/codeigniter-phpstorm
  */
 
 /**
- * @property CI_Benchmark        $benchmark                           This class enables you to mark points and calculate the time difference between
- *           them. Memory consumption can also be displayed.
+ * @property CI_Benchmark        $benchmark                           This class enables you to mark points and calculate the time difference between them. Memory consumption can also be displayed.
  * @property CI_Calendar         $calendar                            This class enables the creation of calendars
  * @property CI_Cache            $cache                               Caching Class
  * @property CI_Cart             $cart                                Shopping Cart Class
  * @property CI_Config           $config                              This class contains functions that enable config files to be managed
- * @property CI_Controller       $controller                          This class object is the super class that every library in CodeIgniter will be
- *           assigned to
+ * @property CI_Controller       $controller                          This class object is the super class that every library in CodeIgniter will be assigned to
  * @property CI_DB_forge         $dbforge                             Database Forge Class
  * @property CI_DB_query_builder $db                                  This is the platform-independent base Query Builder implementation class
  * @property CI_DB_utility       $dbutil                              Database Utility Class
@@ -43,24 +41,22 @@ die('This file is used for development purposes only.');
  * @property CI_Lang             $lang                                Language Class
  * @property CI_Loader           $load                                Loads framework components
  * @property CI_Log              $log                                 Logging Class
- * @property CI_Migration        $migration                           All migrations should implement this, forces up() and down() and gives access to
- *           the CI super-global
+ * @property CI_Migration        $migration                           All migrations should implement this, forces up() and down() and gives access to the CI super-global
  * @property CI_Model            $model                               CodeIgniter Model Class
  * @property CI_Output           $output                              Responsible for sending final output to the browser
  * @property CI_Pagination       $pagination                          Pagination Class
  * @property CI_Parser           $parser                              Parser Class
- * @property CI_Profiler         $profiler                            This class enables you to display benchmark, query, and other data in order to
- *           help with debugging and optimization.
+ * @property CI_Profiler         $profiler                            This class enables you to display benchmark, query, and other data in order to help with debugging and optimization.
  * @property CI_Router           $router                              Parses URIs and determines routing
  * @property CI_Security         $security                            Security Class
  * @property CI_Session          $session                             Session Class
  * @property CI_Table            $table                               Lets you create tables manually or from database result objects, or arrays
  * @property CI_Trackback        $trackback                           Trackback Sending/Receiving Class
  * @property CI_Typography       $typography                          Typography Class
- * @property CI_Unit_test        $unit_test                           Simple testing class
+ * @property CI_Unit_test        $unit                                Simple testing class
  * @property CI_Upload           $upload                              File Uploading Class
  * @property CI_URI              $uri                                 Parses URIs and determines routing
- * @property CI_User_agent       $agent                          Identifies the platform, browser, robot, or mobile device of the browsing agent
+ * @property CI_User_agent       $agent                               Identifies the platform, browser, robot, or mobile device of the browsing agent
  * @property CI_Xmlrpc           $xmlrpc                              XML-RPC request handler class
  * @property CI_Xmlrpcs          $xmlrpcs                             XML-RPC server class
  * @property CI_Zip              $zip                                 Zip Compression Class
@@ -72,14 +68,12 @@ class CI_Controller {
 }
 
 /**
- * @property CI_Benchmark        $benchmark                           This class enables you to mark points and calculate the time difference between
- *           them. Memory consumption can also be displayed.
+ * @property CI_Benchmark        $benchmark                           This class enables you to mark points and calculate the time difference between them. Memory consumption can also be displayed.
  * @property CI_Calendar         $calendar                            This class enables the creation of calendars
  * @property CI_Cache            $cache                               Caching Class
  * @property CI_Cart             $cart                                Shopping Cart Class
  * @property CI_Config           $config                              This class contains functions that enable config files to be managed
- * @property CI_Controller       $controller                          This class object is the super class that every library in CodeIgniter will be
- *           assigned to
+ * @property CI_Controller       $controller                          This class object is the super class that every library in CodeIgniter will be assigned to
  * @property CI_DB_forge         $dbforge                             Database Forge Class
  * @property CI_DB_query_builder $db                                  This is the platform-independent base Query Builder implementation class
  * @property CI_DB_utility       $dbutil                              Database Utility Class
@@ -98,24 +92,22 @@ class CI_Controller {
  * @property CI_Lang             $lang                                Language Class
  * @property CI_Loader           $load                                Loads framework components
  * @property CI_Log              $log                                 Logging Class
- * @property CI_Migration        $migration                           All migrations should implement this, forces up() and down() and gives access to
- *           the CI super-global
+ * @property CI_Migration        $migration                           All migrations should implement this, forces up() and down() and gives access to the CI super-global
  * @property CI_Model            $model                               CodeIgniter Model Class
  * @property CI_Output           $output                              Responsible for sending final output to the browser
  * @property CI_Pagination       $pagination                          Pagination Class
  * @property CI_Parser           $parser                              Parser Class
- * @property CI_Profiler         $profiler                            This class enables you to display benchmark, query, and other data in order to
- *           help with debugging and optimization.
+ * @property CI_Profiler         $profiler                            This class enables you to display benchmark, query, and other data in order to help with debugging and optimization.
  * @property CI_Router           $router                              Parses URIs and determines routing
  * @property CI_Security         $security                            Security Class
  * @property CI_Session          $session                             Session Class
  * @property CI_Table            $table                               Lets you create tables manually or from database result objects, or arrays
  * @property CI_Trackback        $trackback                           Trackback Sending/Receiving Class
  * @property CI_Typography       $typography                          Typography Class
- * @property CI_Unit_test        $unit_test                           Simple testing class
+ * @property CI_Unit_test        $unit                                Simple testing class
  * @property CI_Upload           $upload                              File Uploading Class
  * @property CI_URI              $uri                                 Parses URIs and determines routing
- * @property CI_User_agent       $user_agent                          Identifies the platform, browser, robot, or mobile device of the browsing agent
+ * @property CI_User_agent       $agent                               Identifies the platform, browser, robot, or mobile device of the browsing agent
  * @property CI_Xmlrpc           $xmlrpc                              XML-RPC request handler class
  * @property CI_Xmlrpcs          $xmlrpcs                             XML-RPC server class
  * @property CI_Zip              $zip                                 Zip Compression Class
