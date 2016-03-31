@@ -65,6 +65,9 @@ die('This file is used for development purposes only.');
  */
 class CI_Controller {
 
+	public function __construct()
+	{
+	}
 }
 
 /**
@@ -116,4 +119,7 @@ class CI_Controller {
  */
 class CI_Model {
 
+	public function __construct()
+	{
+	}
 }
