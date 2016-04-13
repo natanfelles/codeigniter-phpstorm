@@ -10,6 +10,10 @@ Working perfectly with CodeIgniter 3.0.6
 ### Preview:
 ![Image of Code Completion](https://raw.githubusercontent.com/natanfelles/codeigniter-phpstorm/master/codeigniter-phpstorm.png)
 
+### Extra
+ISPConfig 3 Remote API: https://github.com/natanfelles/codeigniter-ispconfig
+Boleto: https://github.com/natanfelles/codeigniter-boleto
+
 ### Hey!
 
 Help and suggestions are welcome.
