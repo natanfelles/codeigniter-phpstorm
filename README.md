@@ -14,6 +14,14 @@ Working perfectly with CodeIgniter 3.0.6
 ISPConfig 3 Remote API: https://github.com/natanfelles/codeigniter-ispconfig  
 Boleto: https://github.com/natanfelles/codeigniter-boleto
 
-### Hey!
+### Are you a developer?
 
 Help and suggestions are welcome.
+
+# Hey! Wait a minute
+
+I am available for freelance.
+
+Working daily with web development and server administration.
+
+Send a message describing your project to natanfelles@gmail.com and we will make it happen!
