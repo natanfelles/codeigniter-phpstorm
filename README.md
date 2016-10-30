@@ -1,6 +1,6 @@
 # PhpStorm Code Completion to CodeIgniter + HMVC
 
-Working perfectly with CodeIgniter 3.1.0
+Working perfectly with CodeIgniter 3.*
 
 ### How to use it:
 
