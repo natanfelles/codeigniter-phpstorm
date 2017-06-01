@@ -19,7 +19,7 @@ die('This file is used for development purposes only.');
  * @property CI_Config           $config                              This class contains functions that enable config files to be managed
  * @property CI_Controller       $controller                          This class object is the super class that every library in CodeIgniter will be assigned to
  * @property CI_DB_forge         $dbforge                             Database Forge Class
- * @property CI_DB_query_builder $db                                  This is the platform-independent base Query Builder implementation class
+ * @property CI_DB_mysql_driver|CI_DB_query_builder $db                                  This is the platform-independent base Query Builder
  * @property CI_DB_utility       $dbutil                              Database Utility Class
  * @property CI_Driver_Library   $driver                              Driver Library Class
  * @property CI_Email            $email                               Permits email to be sent using Mail, Sendmail, or SMTP
@@ -74,7 +74,7 @@ class CI_Controller {
  * @property CI_Config           $config                              This class contains functions that enable config files to be managed
  * @property CI_Controller       $controller                          This class object is the super class that every library in CodeIgniter will be assigned to
  * @property CI_DB_forge         $dbforge                             Database Forge Class
- * @property CI_DB_query_builder $db                                  This is the platform-independent base Query Builder implementation class
+ * @property CI_DB_mysql_driver|CI_DB_query_builder $db                                  This is the platform-independent base Query Builder implementation class
  * @property CI_DB_utility       $dbutil                              Database Utility Class
  * @property CI_Driver_Library   $driver                              Driver Library Class
  * @property CI_Email            $email                               Permits email to be sent using Mail, Sendmail, or SMTP
@@ -127,7 +127,7 @@ class CI_Model {
  * @property CI_Config           $config                              This class contains functions that enable config files to be managed
  * @property CI_Controller       $controller                          This class object is the super class that every library in CodeIgniter will be assigned to
  * @property CI_DB_forge         $dbforge                             Database Forge Class
- * @property CI_DB_query_builder $db                                  This is the platform-independent base Query Builder implementation class
+ * @property CI_DB_mysql_driver|CI_DB_query_builder $db                                  This is the platform-independent base Query Builder implementation class
  * @property CI_DB_utility       $dbutil                              Database Utility Class
  * @property CI_Driver_Library   $driver                              Driver Library Class
  * @property CI_Email            $email                               Permits email to be sent using Mail, Sendmail, or SMTP
